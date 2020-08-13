@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "bag1",
+      "description": "This is the product 1 description. The product is really kool!",
+      "price": 100,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "bag2",
+      "description": "This is the product 2 description. The product is really kool!",
+      "price": 200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41SjG4MeCWL.jpg"
+    },
+    {
+      "id": 3,
+      "name": "bag3",
+      "description": "This is the product 3 description. The product is really kool!",
+      "price": 300,
+      "imageUrl": "https://content.jdmagicbox.com/quickquotes/images_fs/fs_b07sqq4dhb-raj-and-amp-sonsteddy-bear-for-girls-panda-teddy-bears-tady-bears-toys-big-size-latest-170112973-3udxe.jpg"
+    },
+    {
+      "id": 4,
+      "name": "bag4",
+      "description": "This is the product 4 description. The product is really kool!",
+      "price": 400,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgpSZ0vaOEoHTKAGVWK3bhJFGE7WlwI96xXQ&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "bag5",
+      "description": "This is the product 5 description. The product is really kool!",
+      "price": 500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Z7lgC8gVL.jpg"
+    },
+    {
+      "id": 6,
+      "name": "bag6",
+      "description": "This is the product 6 description. The product is really kool!",
+      "price": 600,
+      "imageUrl": "https://n1.sdlcdn.com/imgs/g/t/5/Scoobee-Toys-Beautiful-Pink-Tady-SDL095164571-1-b5675.jpeg"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 6
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "bag3",
+        "description": "This is the product 3 description. The product is really kool!",
+        "price": 300,
+        "imageUrl": "https://content.jdmagicbox.com/quickquotes/images_fs/fs_b07sqq4dhb-raj-and-amp-sonsteddy-bear-for-girls-panda-teddy-bears-tady-bears-toys-big-size-latest-170112973-3udxe.jpg"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "bag1",
+        "description": "This is the product 1 description. The product is really kool!",
+        "price": 100,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "bag3",
+        "description": "This is the product 3 description. The product is really kool!",
+        "price": 300,
+        "imageUrl": "https://content.jdmagicbox.com/quickquotes/images_fs/fs_b07sqq4dhb-raj-and-amp-sonsteddy-bear-for-girls-panda-teddy-bears-tady-bears-toys-big-size-latest-170112973-3udxe.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "bag3",
+        "description": "This is the product 3 description. The product is really kool!",
+        "price": 300,
+        "imageUrl": "https://content.jdmagicbox.com/quickquotes/images_fs/fs_b07sqq4dhb-raj-and-amp-sonsteddy-bear-for-girls-panda-teddy-bears-tady-bears-toys-big-size-latest-170112973-3udxe.jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "bag6",
+        "description": "This is the product 6 description. The product is really kool!",
+        "price": 600,
+        "imageUrl": "https://n1.sdlcdn.com/imgs/g/t/5/Scoobee-Toys-Beautiful-Pink-Tady-SDL095164571-1-b5675.jpeg"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "bag6",
+        "description": "This is the product 6 description. The product is really kool!",
+        "price": 600,
+        "imageUrl": "https://n1.sdlcdn.com/imgs/g/t/5/Scoobee-Toys-Beautiful-Pink-Tady-SDL095164571-1-b5675.jpeg"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "bag5",
+        "description": "This is the product 5 description. The product is really kool!",
+        "price": 500,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Z7lgC8gVL.jpg"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "bag5",
+        "description": "This is the product 5 description. The product is really kool!",
+        "price": 500,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Z7lgC8gVL.jpg"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "bag1",
+        "description": "This is the product 1 description. The product is really kool!",
+        "price": 100,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "bag1",
+        "description": "This is the product 1 description. The product is really kool!",
+        "price": 100,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "bag2",
+        "description": "This is the product 2 description. The product is really kool!",
+        "price": 200,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41SjG4MeCWL.jpg"
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "bag2",
+        "description": "This is the product 2 description. The product is really kool!",
+        "price": 200,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41SjG4MeCWL.jpg"
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "bag1",
+        "description": "This is the product 1 description. The product is really kool!",
+        "price": 100,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "bag1",
+        "description": "This is the product 1 description. The product is really kool!",
+        "price": 100,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UHv14q60L._SL1280_.jpg"
+      },
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+            <div class="card-header text-center">
+                <h2>Login Here</h2>
+            </div>
+
+            <div class="card-body">
+                <!-- {{loginForm.valid}} -->
+                <form #loginForm="ngForm" (ngSubmit)="login()">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" #username="ngModel" class="form-control" [ngClass]="{'is-invalid': username.touched && username.invalid}" [(ngModel)]="model.username" required/>
+                        <span class="invalid-feedback">Username can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" #password="ngModel" class="form-control" [ngClass]="{'is-invalid': password.touched && password.invalid}" [(ngModel)]="model.password" required/>
+                        <span class="invalid-feedback">Password can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" id="remember" name="remember" #remember="ngModel" [(ngModel)]="model.remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+
+                    <button class="btn btn-primary btn-block" [disabled]="loginForm.invalid">Login</button>
+
+                    <br><br>
+                    <button type="button" class="btn btn-default btn-block shadow-sm button1">
+                        <a [routerLink]="['/register']">Existing User? Log in</a>
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

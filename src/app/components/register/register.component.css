@@ -1,0 +1,12 @@
+.text{
+    font-style: initial;
+    font-size: small;
+}
+
+.btn{
+    font-weight: bold;
+}
+
+a:link{
+    text-decoration: none;
+}
